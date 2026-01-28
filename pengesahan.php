@@ -6,7 +6,7 @@ $telefon  = $_POST['telefon'];
 $kategori = $_POST['kategori'];
 $slot     = $_POST['slot'];
 
-$hargaUnit = 250;
+$hargaUnit = 20;
 $jumlah = $hargaUnit * $slot;
 ?>
 
@@ -27,7 +27,7 @@ $jumlah = $hargaUnit * $slot;
             padding: 20px;
         }
         h2 {
-            color: #08100c;
+            color: #101110;
         }
     </style>
 </head>
